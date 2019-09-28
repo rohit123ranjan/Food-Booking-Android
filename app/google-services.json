@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1050447258089",
+    "firebase_url": "https://foodonbook.firebaseio.com",
+    "project_id": "foodonbook",
+    "storage_bucket": "foodonbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050447258089:android:32abd8e7f04cd70a",
+        "android_client_info": {
+          "package_name": "com.example.rohitranjan.foodonbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050447258089-qlso1ga977q8o5io1n201ce1e8f87v6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohitranjan.foodonbook",
+            "certificate_hash": "8ac585769139f968bfc1b875c9f77ca52a715185"
+          }
+        },
+        {
+          "client_id": "1050447258089-8q03cd2mmtk7be44nu42s2qu0qvnjs24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzNOdsdqjAS9gJ66ADqk27RN68ec6Z5iM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050447258089-8q03cd2mmtk7be44nu42s2qu0qvnjs24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

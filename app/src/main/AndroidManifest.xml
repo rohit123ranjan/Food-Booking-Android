@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rohitranjan.foodonbook">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="com.android.hardware.Camera.focus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ImageListActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".User_home" />
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".ItemListActivity" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".CartPage" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".AddItemActivity" />
+        <activity android:name=".ListChange" />
+        <activity android:name=".userCategory" />
+        <activity android:name=".userItem" />
+        <activity android:name=".SelectTable" />
+        <activity android:name=".QrcodeGenerator" />
+        <activity android:name=".PayNow" />
+        <activity android:name=".PaymentDetails" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity android:name=".QRCodeScan" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="portrait"
+            tools:replace="screenOrientation" />
+        <activity android:name=".FetchOrder" />
+        <activity android:name=".AdminsubFetch"></activity>
+    </application>
+
+</manifest>

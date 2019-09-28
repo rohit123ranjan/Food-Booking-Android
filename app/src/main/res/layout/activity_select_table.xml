@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectTable">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorGreen"
+        android:titleTextColor="@android:color/white"
+        android:theme="@style/ToolbarColoredBackArrow">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Table"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/white"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/simpleText"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Please book one or more table number"
+            android:textAlignment="center"
+            android:textColor="#3179c1"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="normal"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:id="@+id/spinner"
+            android:background="@drawable/a_trans_gardient"
+            android:padding="10dp"
+            android:entries="@array/tableNumber"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="40dp" />
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Nothing is selected"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:id="@+id/tableSelect"
+            android:textSize="20sp"
+            android:layout_marginTop="80dp"
+            android:textStyle="normal"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/category">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/orderNow"
+            android:text="Order Now"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorGreen"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

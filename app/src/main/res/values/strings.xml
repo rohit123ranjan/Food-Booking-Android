@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Table Food</string>
+    <string name="result_text_default">Please focus camera to get QR Code</string>
+
+    <array name="tableNumber">
+        <item>Choose Table Number...</item>
+        <item>TABLE NUMBER 1</item>
+        <item>TABLE NUMBER 2</item>
+        <item>TABLE NUMBER 3</item>
+        <item>TABLE NUMBER 4</item>
+        <item>TABLE NUMBER 5</item>
+        <item>TABLE NUMBER 6</item>
+        <item>TABLE NUMBER 7</item>
+        <item>TABLE NUMBER 8</item>
+        <item>TABLE NUMBER 9</item>
+        <item>TABLE NUMBER 10</item>
+        <item>TABLE NUMBER 11</item>
+        <item>TABLE NUMBER 12</item>
+        <item>TABLE NUMBER 13</item>
+        <item>TABLE NUMBER 14</item>
+        <item>TABLE NUMBER 15</item>
+        <item>TABLE NUMBER 16</item>
+        <item>TABLE NUMBER 17</item>
+        <item>TABLE NUMBER 18</item>
+        <item>TABLE NUMBER 19</item>
+        <item>TABLE NUMBER 20</item>
+    </array>
+</resources>

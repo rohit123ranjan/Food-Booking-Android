@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/back_img3"
+        android:scaleType="centerCrop"/>
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tollchange"
+        android:scaleType="centerCrop" />-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/for_profile">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:typeface="serif"
+            android:id="@+id/username"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="code2rohit@gmail.com"
+            android:id="@+id/email"
+            android:layout_below="@id/username"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@id/email"
+            android:id="@+id/phone"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/for_menu"
+        android:layout_below="@id/for_profile">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:padding="10dp"
+                android:background="#e2f55d1c"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:id="@+id/home_click"
+                android:textSize="18sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"/>
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Order"
+                android:id="@+id/myOrder_click"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"/>-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Order"
+                android:id="@+id/myOrder_click"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:background="#e2f55d1c"
+                android:textSize="18sp"
+                android:visibility="gone"
+                android:padding="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"/>
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Cart"
+                android:id="@+id/myCart"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp" />-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Cart"
+                android:id="@+id/myCart"
+                android:background="#e2f55d1c"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log Out"
+                android:background="#82305e79"
+                android:padding="10dp"
+                android:id="@+id/logOut"
+                android:layout_marginBottom="30dp"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

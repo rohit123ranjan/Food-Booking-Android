@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e9e9e9"
+    tools:context=".ImageListActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorOrange"
+        android:titleTextColor="@android:color/white"
+        android:theme="@style/ToolbarColoredBackArrow">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginLeft="90dp"
+                android:textColor="@android:color/white"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/category">
+        <com.baoyz.swipemenulistview.SwipeMenuListView
+            android:id="@+id/listViewImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/addCategory"
+            android:padding="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/addCategory"
+            android:text="Add New Category"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorOrange"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>
